@@ -1,0 +1,21 @@
+{
+  "name": "ramsesz/facebook-wordpress",
+  "description" : "facebook plugin for php7",
+  "type" : "wordpress-plugin",
+  "keywords" : [ "wordpress" ],
+  "license" : "GPL-2.0+",
+  "authors" : [
+    {
+      "name" : "ramsesz",
+      "email" : "ramses@ramsesz.be",
+      "role" : "Lead Developer"
+    }
+  ],
+  "require" : {
+    "composer/installers" : "~1.0.0",
+    "php" : ">=5.2.4"
+  },
+  "extra" : {
+    "installer-name" : "facebook"
+  }
+}
